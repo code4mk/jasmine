@@ -1,0 +1,20 @@
+{
+  "name": "jasmine",
+  "version": "0.0.0",
+  "description": "Jasmine Snippet   >> JavaScript Unit testing >>  by @code4mk",
+  "keywords": [
+    "testing",
+    "jasmine",
+    "unit testing",
+    "JavaScript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code4mk/jasmine"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

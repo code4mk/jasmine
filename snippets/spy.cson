@@ -1,0 +1,13 @@
+########################################################
+#            Jasmine  Snippet                          #
+#            https://code4mk.org/                     #
+#                @code4mk                            #
+#####################################################
+
+'.source.js, .source.ts':
+
+  "spyOn->json":
+    "prefix": "jsn-spyOn"
+    "body": """
+    spyOn(foo$1, 'setBar');
+    """

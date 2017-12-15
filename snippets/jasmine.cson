@@ -1,0 +1,100 @@
+########################################################
+#            Jasmine  Snippet                          #
+#            https://code4mk.org/                     #
+#                @code4mk                            #
+#####################################################
+
+'.source.js, .source.ts':
+
+  "Describe ->jasmine":
+    "prefix": "jsmn_describe"
+    "body": """
+    describe('y$1', function () {
+      $2
+    });
+    """
+  "Describe es6 ->jasmine":
+    "prefix": "jsmn_describe6"
+    "body": """
+    describe('y', () => {
+      $1
+    })
+    """
+  "it ->jasmine":
+    "prefix": "jsmn_it"
+    "body": """
+    it('y$1', function () {
+      $2
+    });
+    """
+  "it es6 ->jasmine":
+    "prefix": "jsmn_it6"
+    "body": """
+    it('y', () => {
+      $1
+    })
+    """
+
+
+  "beforeEach ->jasmine":
+    "prefix": "jsmn_beforeEach"
+    "body": """
+    beforeEach(function () {
+      $1
+    });
+    """
+  "beforeEach es6 ->jasmine":
+    "prefix": "jsmn_beforeEach6"
+    "body": """
+    beforeEach(() => {
+      $1
+    });
+    """
+  "beforeAll ->jasmine":
+    "prefix": "jsmn_beforeAll"
+    "body": """
+    beforeAll(function () {
+      $1
+    });
+    """
+  "beforeAll es6 ->jasmine":
+    "prefix": "jsmn_beforeAll6"
+    "body": """
+    beforeAll(() => {
+      $1
+    });
+    """
+  "afterAll ->jasmine":
+    "prefix": "jsmn_afterAll"
+    "body": """
+    afterAll(function () {
+      $1
+    });
+    """
+  "afterEach es6 ->jasmine":
+    "prefix": "jsmn_afterEach6"
+    "body": """
+    afterEach(() => {
+      $1
+    });
+    """
+  "afterAll es6 ->jasmine":
+    "prefix": "jsmn_afterAll6"
+    "body": """
+    afterAll(() => {
+      $1
+    });
+    """
+  "afterEach ->jasmine":
+    "prefix": "jsmn_afterEach"
+    "body": """
+    afterEach(function () {
+      $1
+    });
+    """
+
+  "expect ->jasmine":
+    "prefix": "jsmn_expect"
+    "body": """
+    expect($1).
+    """

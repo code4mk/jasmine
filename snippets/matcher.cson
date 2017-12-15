@@ -1,0 +1,162 @@
+########################################################
+#            Jasmine  Snippet                          #
+#            https://code4mk.org/                     #
+#                @code4mk                            #
+#####################################################
+
+'.source.js, .source.ts':
+
+  "toBeDefined ->jasmine":
+    "prefix": "jsmn_toBeDefined"
+    "body": """
+    toBeDefined();$1
+    """
+  "not.toBeDefined ->jasmine":
+    "prefix": "jsmn_nottoBeDefined"
+    "body": """
+    not.toBeDefined();$1
+    """
+
+  "toBeUndefined ->jasmine":
+    "prefix": "jsmn_toBeUndefined"
+    "body": """
+    toBeUndefined();$1
+    """
+  "not.toBeUndefined ->jasmine":
+    "prefix": "jsmn_nottoBeUndefined"
+    "body": """
+    not.toBeUndefined();$1
+    """
+
+  "toBeFalsy ->jasmine":
+    "prefix": "jsmn_toBeFalsy"
+    "body": """
+    toBeFalsy();$1
+    """
+  "not.toBeFalsy ->jasmine":
+    "prefix": "jsmn_nottoBeFalsy"
+    "body": """
+    not.toBeFalsy();$1
+    """
+
+  "toBeNull ->jasmine":
+    "prefix": "jsmn_toBeNull"
+    "body": """
+    toBeNull();$1
+    """
+  "not.toBeNull ->jasmine":
+    "prefix": "jsmn_nottoBeNull"
+    "body": """
+    not.toBeNull();$1
+    """
+
+  "toBeTruthy ->jasmine":
+    "prefix": "jsmn_toBeTruthy"
+    "body": """
+    toBeTruthy();$1
+    """
+  "not.toBeTruthy ->jasmine":
+    "prefix": "jsmn_nottoBeTruthy"
+    "body": """
+    not.toBeTruthy();$1
+    """
+
+  "toContain ->jasmine":
+    "prefix": "jsmn_toContain"
+    "body": """
+    toContain($1);
+    """
+  "not.toContain ->jasmine":
+    "prefix": "jsmn_nottoContain"
+    "body": """
+    not.toContain($1);
+    """
+
+  "toEqual ->jasmine":
+    "prefix": "jsmn_toEqual"
+    "body": """
+    toEqual($1);
+    """
+
+  "toMatch ->jasmine":
+    "prefix": "jsmn_toMatch"
+    "body": """
+    toMatch($1);
+    """
+  "not.toMatch ->jasmine":
+    "prefix": "jsmn_nottomatch"
+    "body": """
+    not.toMatch($1);
+    """
+
+  "toHaveBeenCalledWith ->jasmine":
+    "prefix": "jsmn_toHaveBeenCalledWith"
+    "body": """
+    toHaveBeenCalledWith($1);
+    """
+  "toHaveBeenCalled ->jasmine":
+    "prefix": "jsmn_toHaveBeenCalled"
+    "body": """
+    toHaveBeenCalled($1);
+    """
+  "toHaveBeenCalledTimes ->jasmine":
+    "prefix": "jsmn_toHaveBeenCalledTimes"
+    "body": """
+    toHaveBeenCalledTimes($1);
+    """
+
+  "toThrowError ->jasmine":
+    "prefix": "jsmn_toThrowError"
+    "body": """
+    toThrowError($1);
+    """
+
+  "toThrow ->jasmine":
+    "prefix": "jsmn_toThrow"
+    "body": """
+    toThrow($1);
+    """
+  "nottoThrow ->jasmine":
+    "prefix": "jsmn_nottoThrow"
+    "body": """
+    not.toThrow($1);
+    """
+
+  "toBe ->jasmine":
+    "prefix": "jsmn_toBe"
+    "body": """
+    toBe($1);
+    """
+
+  "toBeGreaterThan ->jasmine":
+    "prefix": "jsmn_toBeGreaterThan"
+    "body": """
+    toBeGreaterThan($1);
+    """
+  "not.toBeGreaterThan ->jasmine":
+    "prefix": "jsmn_nottoBeGreaterThan"
+    "body": """
+    not.toBeGreaterThan($1);
+    """
+
+  "toBeLessThan ->jasmine":
+    "prefix": "jsmn_toBeLessThan"
+    "body": """
+    toBeLessThan($1);
+    """
+  "not.toBeLessThan ->jasmine":
+    "prefix": "jsmn_nottoBeLessThan"
+    "body": """
+    not.toBeLessThan($1);
+    """
+
+  "toBeCloseTo ->jasmine":
+    "prefix": "jsmn_toBeCloseTo"
+    "body": """
+    toBeCloseTo(3.12$1, 0.1);
+    """
+  "not.toBeCloseTo ->jasmine":
+    "prefix": "jsmn_nottoBeCloseTo"
+    "body": """
+    not.toBeCloseTo(3.12$1, 0.1);
+    """

@@ -1,0 +1,39 @@
+########################################################
+#            Jasmine  Snippet                          #
+#            https://code4mk.org/                     #
+#                @code4mk                            #
+#####################################################
+
+'.source.js, .source.ts':
+
+  "done()->json":
+    "prefix": "jsmn_done"
+    "body": """
+    done();
+    """
+  "fail()->json":
+    "prefix": "jsmn_fail"
+    "body": """
+    fail('status');
+    """
+
+  "mockDate()->json":
+    "prefix": "jsmn_mockDate"
+    "body": """
+    jasmine.clock().mockDate($1);
+    """
+  "clock()->json":
+    "prefix": "jsmn_clock"
+    "body": """
+    jasmine.clock().;
+    """
+  "install()->json":
+    "prefix": "jsmn_install"
+    "body": """
+    install();
+    """
+  "uninstall()->json":
+    "prefix": "jsmn_uninstall"
+    "body": """
+    uninstall();
+    """
