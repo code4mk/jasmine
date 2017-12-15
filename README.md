@@ -1,5 +1,6 @@
 
 <p align="center" ><img src="./images/jasmine.png"></p>
+
 # Jasmine snippet JS testing  & Atom Lovers
 
 Install:
