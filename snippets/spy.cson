@@ -6,8 +6,38 @@
 
 '.source.js, .source.ts':
 
-  "spyOn->json":
-    "prefix": "jsn-spyOn"
+  "spyOn->jsmn(spy)":
+    "prefix": "jsmn_spyOn"
     "body": """
     spyOn(foo$1, 'setBar');
+    """
+  ".and.callThrough()->jsmn(spy)":
+    "prefix": "jsmn_andcallThrough"
+    "body": """
+    .and.callThrough();
+    """
+  "and.returnValue()->jsmn(spy)":
+    "prefix": "jsmn_andreturnValue"
+    "body": """
+    and.returnValue($1);
+    """
+  "and.returnValues()->jsmn(spy)":
+    "prefix": "jsmn_andreturnValues"
+    "body": """
+    and.returnValues($1);
+    """
+  "and.callFake()->jsmn(spy)":
+    "prefix": "jsmn_andcallfake"
+    "body": """
+    and.callFake($1);
+    """
+  "and.throwError()->jsmn(spy)":
+    "prefix": "jsmn_andthrowError"
+    "body": """
+    and.throwError($1);
+    """
+  "and.stub()->jsmn(spy)":
+    "prefix": "jsmn_andstub"
+    "body": """
+    and.stub($1);
     """

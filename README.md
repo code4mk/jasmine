@@ -24,18 +24,20 @@ Mian Features:
 |jasmine|jsmn_|
 
 
-Version:
+# Version:
 
   - Jasmin
+
+
 # Jasmine tutorial
 
 * [Jasmine Tutorial](https://code4mk.org/javascript-developer/testing/jasmine)
 
 
-  Another package which helps you   ❤️
+Another package which helps you   ❤️
 
-  ```ssh
-  apm install atom-axios
-  ```
+```ssh
+apm install atom-axios
+```
   ---
 [![code4k](https://img.shields.io/badge/Powered-By-blue.svg)]() <a href="https://code4mk.org" ><img src="https://img.shields.io/badge/code4mk-.org-red.svg" > <a href="https://twitter.com/code4mk" ><img src="https://img.shields.io/badge/%40-code4mk-brightgreen.svg" >
