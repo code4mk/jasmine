@@ -37,7 +37,4 @@ Version:
   apm install atom-axios
   ```
   ---
-[![code4k](https://img.shields.io/badge/Powered-By-blue.svg)]()
-<a href="https://code4mk.org" ><img src="https://img.shields.io/badge/code4mk-.org-red.svg" >
-<a href="https://twitter.com/code4mk" ><img src="https://img.shields.io/badge/%40-code4mk-brightgreen.svg" >
-    ---
+[![code4k](https://img.shields.io/badge/Powered-By-blue.svg)]() <a href="https://code4mk.org" ><img src="https://img.shields.io/badge/code4mk-.org-red.svg" > <a href="https://twitter.com/code4mk" ><img src="https://img.shields.io/badge/%40-code4mk-brightgreen.svg" >
